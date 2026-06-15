@@ -55,9 +55,9 @@ The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 
 
 
 ### Download
-Download HymDrone dataset from Baidu Netdisk and place it in the repository root directory:
+Download AFBirds dataset from Baidu Netdisk and place it in the repository root directory:
 
-- Baidu Netdisk: https://pan.baidu.com/s/19RUSTpwWkdMI4_8NLSjZAQ?pwd=duas
+- Baidu Netdisk: 
 
 ---
 
