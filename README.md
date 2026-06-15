@@ -9,7 +9,7 @@
 ---
 
 ## Overview
-This repository provides the official implementation of **HymNet**, a human visual system (HVS)-inspired framework for small target detection. HymNet emulates retinal resource allocation (via MGFM), contour sharpening (via DMEM), and contextual integration (via GPCM) to achieve robust cross-modal and cross-viewpoint detection.
+This repository provides the official implementation of **ARISNet**, an asymmetric ratio and interactive selection network for airport bird strike prevention. ARISNet integrates stage-specific attention decoupling (via **AJRA** with AJRA-C/AJRA-J variants), hierarchical cross-dimensional gating (via **BW-SFF**), physics-inspired noise suppression (via **NSFB**), and ordered center-prioritized regression (via **DA-IoU** loss) to mitigate feature miscalibration, cross-scale semantic-spatial misalignment, environmental noise contamination for small targets, and optimization instability for fast-moving birds. Built upon the RT-DETR framework, ARISNet is evaluated on the **AFBirds** dataset (6,015 images, 16 species), CUB-200-2011, and FBD-SV-2024, achieving 76.8% mAP$_{0.5:0.95}$ with state-of-the-art accuracy-efficiency trade-offs.
 
 <p align="center">
   <img src="assets/HymNet.png" height="500">
