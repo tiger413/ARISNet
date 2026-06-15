@@ -9,8 +9,7 @@
 ---
 
 ## Overview
-This repository provides the official implementation of **ARISNet**, an asymmetric ratio and interactive selection network for airport bird strike prevention. ARISNet integrates stage-specific attention decoupling (via **AJRA** with AJRA-C/AJRA-J variants), hierarchical cross-dimensional gating (via **BW-SFF**), physics-inspired noise suppression (via **NSFB**), and ordered center-prioritized regression (via **DA-IoU** loss) to mitigate feature miscalibration, cross-scale semantic-spatial misalignment, environmental noise contamination for small targets, and optimization instability for fast-moving birds. Built upon the RT-DETR framework, ARISNet is evaluated on the **AFBirds** dataset (6,015 images, 16 species), CUB-200-2011, and FBD-SV-2024, achieving 76.8% mAP$_{0.5:0.95}$ with state-of-the-art accuracy-efficiency trade-offs.
-
+This repository provides the official implementation of **ARISNet**, an asymmetric ratio and interactive selection network for airport bird strike prevention. Built upon RTDETR, ARISNet integrates stage-specific attention decoupling (via **AJRA** with AJRA-C/AJRA-J variants), hierarchical cross-dimensional gating (via **BW-SFF**), physics-inspired noise suppression (via **NSFB**), and ordered center-prioritized regression (via **DA-IoU** loss) to mitigate feature miscalibration, cross-scale semantic-spatial misalignment, environmental noise contamination for small targets, and optimization instability for fast-moving birds.
 <p align="center">
   <img src="assets/HymNet.png" height="500">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -42,33 +41,18 @@ pip install -e .
 
 ---
 
-## HymDrone Quadrotor UAV Dataset
+## AFBirds Dataset
 
 ### Introduction
 
-**HymDrone** comprises 59,138 high-resolution images across 55 sequences, encompassing 9 distinct scene types: park, nighttime, hilly areas with trees, open terrain with sparse trees, beach, jungle, mountains, highways, and sunset — as well as 5 diverse weather conditions: sunny (a), fog (b), haze (c), falling leaves (d), and heavy snow or rain (e). Illumination conditions vary from dawn to dusk. All images have a resolution of 1920×1080 pixels, and precise bounding box annotations are provided for each UAV target.
+The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. All images are captured from ground-to-air perspectives.
 
 <p align="center">
   <img src="assets/scenes.png" width="600">
 </p> 
 
-**Figure**: Nine different scene types of HymDrone.
+**Figure**: Nine different scene types.
 
-<p align="center">
-  <img src="assets/weather.png" width="600">
-</p>  
-
-**Figure**: Five different weather conditions of HymDrone.
-
-With respect to target scale, statistical analysis shows that **more than 52%** of UAV targets occupy **less than 0.5%** of the image area, and the majority of bounding boxes are small in both width and height.
-
-<p align="center">
-  <img src="assets/histogram.png" width="500">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/scatter.png" width="450">
-</p>  
-
-**Figure**: Analysis of bounding box statistics in HymDrone: histogram of area ratios (bounding box area / image area) and scatter plot of width vs. height, with points colored by area ratio.
 
 ### Download
 Download HymDrone dataset from Baidu Netdisk and place it in the repository root directory:
