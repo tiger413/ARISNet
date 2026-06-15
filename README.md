@@ -16,7 +16,7 @@ This repository provides the official implementation of **ARISNet**, an asymmetr
   <img src="assets/HVS_HymNet.png" height="380">
 </p>   
 
-**Figure**: Overview of HymNet and its dual-stream functional mapping with the human visual system (HVS).
+**Figure**: Overview of ARISNet.
 
 ---
 
