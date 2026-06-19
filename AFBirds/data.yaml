@@ -1,0 +1,15 @@
+
+train: ./AFBirds/train # train images (relative to 'path') 
+val: ./AFBirds/val # val images (relative to 'path') 
+test: ./AFBirds/test
+
+# Classes
+names:
+  0: Crow
+  1: Heron
+  2: Gull
+  3: Goose
+  4: Crane
+  5: Egret
+  6: Stork
+  7: Duck
