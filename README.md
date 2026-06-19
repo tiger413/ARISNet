@@ -49,7 +49,7 @@ pip install -e .
 
 ### Introduction
 
-The Airport Fine-Grained Birds Dataset (**AFBirds**) consists of 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. To the best of our knowledge, AFBirds is the **first** bird detection dataset captured from unique ground-to-air perspectives with fine-grained species-level annotations, establishing a new benchmark for operational bird strike prevention in airport environments.
+The Airport Fine-Grained Birds Dataset (**AFBirds**) consists of 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. To the best of our knowledge, AFBirds is the **first** bird detection dataset captured from unique **ground-to-air** perspectives with **fine-grained species-level** annotations, establishing a new benchmark for operational bird strike prevention in airport environments.
 
 
 <p align="center">
@@ -70,7 +70,7 @@ Download the AFBirds dataset from Baidu Netdisk and place it in the repository r
 Run training:
 
 ```bash
-python src/ARISnet-main/train.py
+python src/ARISNet-main/train.py
 ```
 ---
 
@@ -79,7 +79,7 @@ python src/ARISnet-main/train.py
 Run inference:
 
 ```bash
-python src/ARISnet-main/test.py
+python src/ARISNet-main/test.py
 ```
 
 ------
