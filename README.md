@@ -9,7 +9,7 @@
 ---
 
 ## Overview
-This repository provides the official implementation of **ARISNet**, an asymmetric ratio and interactive selection network for airport bird strike prevention. Built upon RTDETR, ARISNet integrates stage-specific attention decoupling (via **AJRA** with AJRA-C/AJRA-J variants), hierarchical cross-dimensional gating (via **BW-SFF**), physics-inspired noise suppression (via **NSFB**), and ordered center-prioritized regression (via **DA-IoU** loss) to mitigate feature miscalibration, cross-scale semantic-spatial misalignment, environmental noise contamination for small targets, and optimization instability for fast-moving birds.
+This repository provides the official implementation of **ARISNet**, an asymmetric ratio and interactive selection network for airport bird strike prevention. Built upon RT-DETR, ARISNet integrates stage-specific attention decoupling (via **AJRA** with AJRA-C/AJRA-J variants), hierarchical cross-dimensional gating (via **BW-SFF**), physics-inspired noise suppression (via **NSFB**), and ordered center-prioritized regression (via **DA-IoU** loss) to mitigate feature miscalibration, cross-scale semantic-spatial misalignment, environmental noise contamination for small targets, and optimization instability for fast-moving birds.
 <p align="center">
   <img src="assets/ARISNet.png" height="500">
 </p>
