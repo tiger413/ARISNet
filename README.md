@@ -49,7 +49,7 @@ pip install -e .
 
 ### Introduction
 
-The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. All images are captured from ground-to-air perspectives.
+The Airport Fine-Grained Birds Dataset (AFBirds) consists of 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. All images are captured from ground-to-air perspectives.
 
 <p align="center">
   <img src="assets/Dataset.png" height="380">
@@ -58,7 +58,7 @@ The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 
 **Figure**: Diverse scenarios in the AFBirds Dataset.
 
 ### Download
-Download AFBirds dataset from Baidu Netdisk and place it in the repository root directory:
+Download the AFBirds dataset from Baidu Netdisk and place it in the repository root directory:
 
 - Baidu Netdisk: https://pan.baidu.com/s/1zLDg_mNLjV3WuUjuQZIH1A?pwd=i8s4
 
@@ -69,7 +69,7 @@ Download AFBirds dataset from Baidu Netdisk and place it in the repository root 
 Run training:
 
 ```bash
-python src/ARISnet-mian/train.py
+python src/ARISnet-main/train.py
 ```
 ---
 
@@ -78,7 +78,7 @@ python src/ARISnet-mian/train.py
 Run inference:
 
 ```bash
-python src/ARISnet-mian/test.py
+python src/ARISnet-main/test.py
 ```
 
 ------
@@ -96,4 +96,4 @@ We thank the authors for their excellent work.
 
 ## Contact
 
-If you have any questions, please contact dongjiezhou@stu.hit.edu.cn
+If you have any questions, please contact dongjiezhou@stu.hit.edu.cn.
