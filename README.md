@@ -60,7 +60,7 @@ The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 
 ### Download
 Download AFBirds dataset from Baidu Netdisk and place it in the repository root directory:
 
-- Baidu Netdisk: https://pan.baidu.com/s/1zLDg_mNLjV3WuUjuQZIH1A?pwd=i8s4 提取码: i8s4 
+- Baidu Netdisk: https://pan.baidu.com/s/1zLDg_mNLjV3WuUjuQZIH1A?pwd=i8s4
 
 ---
 
