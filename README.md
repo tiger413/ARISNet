@@ -52,7 +52,7 @@ pip install -e .
 The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. All images are captured from ground-to-air perspectives.
 
 <p align="center">
-  <img src="assets/Dataset.png" width="380">
+  <img src="assets/Dataset.png" height="380">
 </p> 
 
 **Figure**: Diverse scenarios in the AFBirds Dataset.
@@ -88,8 +88,6 @@ python src/test.py
 This project builds upon and is inspired by the following open-source projects and resources:
 
 - Ultralytics: https://github.com/ultralytics/ultralytics
-- LEGNet: https://github.com/AeroVILab-AHU/LEGNet
-- FCM: https://github.com/galaxy-oss/FCM
 
 We thank the authors for their excellent work.
 
