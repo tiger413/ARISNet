@@ -14,24 +14,27 @@ This repository provides the official implementation of **ARISNet**, an asymmetr
   <img src="assets/ARISNet.png" height="500">
 </p>
 
-**Figure**: Overview of ARISNet.
+**Figure**: ARISNet: Overall Architecture and Detailed Views of the AJRA, BW-SFF and NSFB Modules.
 
 <p align="center">
   <img src="assets/Heatmap.png" height="380">
 </p>
+
+**Figure**: Heatmap visualizations of each module's contribution.
+
 ---
 
 ## Environment Setup
 ```bash
 # 1. Clone the repository
-git clone https://github.com/tiger413/HymNet.git
-cd HymNet
+git clone https://github.com/tiger413/ARISNet.git
+cd ARISNet
 
 # 2. Create a virtual environment
-conda create -n hymnet python=3.9
+conda create -n arisnet python=3.9
 
 # 3. Activate the virtual environment
-conda activate hymnet
+conda activate arisnet
 
 # 4. Install dependencies
 pip install -r requirements.txt
@@ -49,7 +52,7 @@ pip install -e .
 The Airport Fine-Grained Birds Dataset (AFBirds), comprising 6,015 images (1920 × 1080) of 8 common airport bird species, including crow, egret, gull, goose, crane, heron, stork and duck. All images are captured from ground-to-air perspectives.
 
 <p align="center">
-  <img src="assets/scenes.png" width="600">
+  <img src="assets/Dataset.png" width="600">
 </p> 
 
 **Figure**: Nine different scene types.
