@@ -87,6 +87,7 @@ python src/test.py
 
 This project builds upon and is inspired by the following open-source projects and resources:
 
+- Baidu: https://github.com/lyuwenyu/RT-DETR
 - Ultralytics: https://github.com/ultralytics/ultralytics
 
 We thank the authors for their excellent work.
