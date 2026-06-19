@@ -69,7 +69,7 @@ Download AFBirds dataset from Baidu Netdisk and place it in the repository root 
 Run training:
 
 ```bash
-python src/train.py
+python src/ARISnet-mian/train.py
 ```
 ---
 
@@ -78,7 +78,7 @@ python src/train.py
 Run inference:
 
 ```bash
-python src/test.py
+python src/ARISnet-mian/test.py
 ```
 
 ------
