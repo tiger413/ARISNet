@@ -1,5 +1,5 @@
 # ARISNet: Asymmetric Ratio and Interactive Selection Network for Airport Bird Strike Prevention
-**Authors:** Dongjie Zhou, Chang Liu, Hongtao Chen, Wenrui Li, Member, IEEE Wangmeng Zuo, Senior Member, IEEE Xiaopeng Fan, Senior Member, IEEE
+**Authors:** Dongjie Zhou, Chang Liu, Hongtao Chen, Wenrui Li, Member, IEEE, Wangmeng Zuo, Senior Member, IEEE, Xiaopeng Fan, Senior Member, IEEE
 
 ---
 
